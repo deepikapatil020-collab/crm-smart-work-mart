@@ -1,0 +1,12 @@
+{
+  "name": "crm-smart-work-mart",
+  "version": "1.0.0",
+  "description": "Smart Work Mart CRM - Multi-role CRM for Admin, HR, and Sales Team",
+  "scripts": {
+    "dev": "node dev.js",
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  }
+}
